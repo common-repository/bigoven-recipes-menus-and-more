@@ -1,0 +1,88 @@
+.ingredHeading {
+    list-style-type: none;
+    font-weight: bold;
+    margin-left: -1.1em;
+}
+.hrecipe {
+    padding:5px 5px 5px 8px;
+}
+.bo-recipe-control {
+    clear: both;
+}
+.bo-recipe-print-container {
+    float: right;
+    padding-top: 0.6em;
+    clear: right;
+}
+.bo-recipe-save-container {
+    float: right;
+}
+.photo-container {
+    clear: both;
+    margin-top: 0.4em;              
+}
+.photo-container >img {
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    margin-bottom: 0.7em;
+}
+.bo-recipe-save {
+    background: url("https://bigoven-res.cloudinary.com/image/upload/save-recipe-download.png") no-repeat scroll 0 5px transparent;
+    cursor: pointer;
+    padding: 2px 0px 0px 20px;
+    display: block;
+    height: 20px;
+}
+.bo-recipe-save:hover {
+    background-position: 0 -20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.bo-recipe-print {
+    background: url("https://bigoven-res.cloudinary.com/image/upload/print-recipe-btn.png") no-repeat scroll 0 5px transparent;
+    cursor: pointer;
+    padding: 3px 0px 0px 20px;
+    display: block;
+    height: 20px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.bo-recipe-print:hover {
+    background-position: 0 -18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.duration-list{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
+    font-size: small;
+}
+.duration-list li {
+    float: left;
+    display: inline-block;
+    margin-right: 2em;
+    margin-bottom: .7em;
+}
+.yield-container {
+    clear: both;
+    font-size: small;
+
+}
+table.recipe-header-table {
+    border-width:0px;
+    margin-bottom: 0.4em;
+}
+.recipe-header-title {
+    border-width:0px;
+    vertical-align: top;
+}
+.recipe-header-buttons {
+    border-width:0px;
+}
+.recipe-header-preptimes {
+    border-width: 0px;
+    vertical-align: top;
+}
+.instructions {margin-top: 1em;}

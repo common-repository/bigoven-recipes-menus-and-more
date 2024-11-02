@@ -1,0 +1,45 @@
+.ingredHeading {list-style-type:none;
+                font-weight: bold;
+                margin-left: -1.1em;
+}
+
+.bo-recipe-control {clear: both;}
+
+.bo-recipe-print-container {
+    float: right;
+    padding-top: 0.6em;
+    clear: right;
+}
+.bo-recipe-save-container {
+    float: right;
+}
+
+.photo-container >img {
+    border-radius: 3px;
+}
+
+.bo-recipe-save {
+    background: url("save-recipe-plus.png") no-repeat scroll 0 5px transparent;
+cursor: pointer;
+padding: 0px 0px 0px 20px;
+display: block;
+height: 20px;
+}
+.bo-recipe-save:hover {
+    background-position: 0 -21px;
+    cursor: pointer;
+}
+
+.bo-recipe-print {
+    background: url("print-recipe-btn.png") no-repeat scroll 0 5px transparent;
+cursor: pointer;
+padding: 0px 0px 0px 20px;
+display: block;
+height: 20px;
+text-decoration: none;
+}
+.bo-recipe-print:hover {
+    background-position: 0 -21px;
+    cursor: pointer;
+    text-decoration: none;
+}

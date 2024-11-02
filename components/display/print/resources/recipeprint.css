@@ -1,0 +1,24 @@
+@media print {
+    body {font-family: Arial,Tahoma, sans-serif;}
+
+.ingredHeading {
+    list-style-type: none;
+    font-style: italic;
+    position: relative;
+    left: -16px;
+}
+
+.photo-container > img {
+    max-width: 120px;
+    max-height: 120px;
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+h2 {clear: both;
+    margin-bottom: 0.4em;
+}
+
+}
+    

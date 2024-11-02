@@ -1,0 +1,10 @@
+.bo-recipes-placeholder {
+	background: #dddddd;
+	border: 1px solid #999999;
+	font-family: sans-serif;
+	padding: 25px 25px;
+}
+
+.bo-recipes-placeholder-title {
+	font-size: 1.25em;
+}
